@@ -236,12 +236,12 @@ def brent(a, b, eps):
 
 
 print("========== DICHOTOMY ==========\n")
-print(dichotomy(-3,5, 10 ** -6), "\n")
+print(dichotomy(0, 100, 10 ** -6), "\n")
 print("========== GOLDEN RATIOS ==========\n")
-print(golden_ratio(-3,5, 10 ** -6), "\n")
+print(golden_ratio(0, 100, 10 ** -6), "\n")
 print("========== FIBONACCI METHOD ==========\n")
-print(fibonacci(0,2, 10 ** -6), "\n")
+print(fibonacci(0, 100, 10 ** -6), "\n")
 print("========== PARABOLAS METHOD ==========\n")
-print(parabolas(0,2, 10 ** -6), "\n")
+print(parabolas(0, 100, 10 ** -6), "\n")
 print("========== BRENT'S METHOD ==========\n")
-print(brent(0,2, 10 ** -6), "\n")
+print(brent(0, 100, 10 ** -6), "\n")
